@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
     // 점수를 증가시키는 메서드
     public void AddScore(int newScore)
     {
-        if (isGameover)
+        if (!isGameover)
             //게임오버가 아니라면
         {
             //점수 증가
